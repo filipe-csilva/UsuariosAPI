@@ -1,14 +1,11 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using UsuariosAPI.Models;
+using UsuariosApi.Models;
 
-namespace UsuariosAPI.Data
+namespace UsuariosApi.Data
 {
     public class UsuarioDbContext : IdentityDbContext<Usuario>
     {
-        public UsuarioDbContext(DbContextOptions<UsuarioDbContext> opts) : base(opts)
-        {
-
-        }
+        public UsuarioDbContext(DbContextOptions<UsuarioDbContext> opts) : base(opts) { }
     }
 }

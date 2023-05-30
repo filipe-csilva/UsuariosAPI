@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace UsuariosAPI.Migrations
 {
-    public partial class CriarUsuario : Migration
+    public partial class CriandoUsuario : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

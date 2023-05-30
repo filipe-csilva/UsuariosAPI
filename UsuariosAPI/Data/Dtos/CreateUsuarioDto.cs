@@ -1,6 +1,7 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using System;
+using System.ComponentModel.DataAnnotations;
 
-namespace UsuariosAPI.Data.Dtos
+namespace UsuariosApi.Data.Dtos
 {
     public class CreateUsuarioDto
     {
@@ -12,6 +13,7 @@ namespace UsuariosAPI.Data.Dtos
         [DataType(DataType.Password)]
         public string Password { get; set; }
         [Required]
+        [Compare("Password")]
         public string RePassword { get; set; }
     }
 }

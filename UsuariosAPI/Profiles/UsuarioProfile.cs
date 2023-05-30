@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using UsuariosAPI.Data.Dtos;
-using UsuariosAPI.Models;
+using UsuariosApi.Data.Dtos;
+using UsuariosApi.Models;
 
-namespace UsuariosAPI.Profiles
+namespace UsuariosApi.Profiles
 {
     public class UsuarioProfile : Profile
     {
