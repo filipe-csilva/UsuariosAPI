@@ -7,7 +7,7 @@ using UsuariosApi.Data;
 
 #nullable disable
 
-namespace UsuariosAPI.Migrations
+namespace UsuariosApi.Migrations
 {
     [DbContext(typeof(UsuarioDbContext))]
     partial class UsuarioDbContextModelSnapshot : ModelSnapshot

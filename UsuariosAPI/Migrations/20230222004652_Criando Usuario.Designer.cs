@@ -8,10 +8,10 @@ using UsuariosApi.Data;
 
 #nullable disable
 
-namespace UsuariosAPI.Migrations
+namespace UsuariosApi.Migrations
 {
     [DbContext(typeof(UsuarioDbContext))]
-    [Migration("20230530172544_Criando Usuario")]
+    [Migration("20230222004652_Criando Usuario")]
     partial class CriandoUsuario
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
